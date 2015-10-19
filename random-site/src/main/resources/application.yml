@@ -1,0 +1,45 @@
+spring:
+    jpa:
+        open-in-view: false
+        hibernate:
+            ddl-auto: none
+            naming-strategy: org.springframework.boot.orm.jpa.hibernate.SpringNamingStrategy
+    mvc:
+        favicon: false
+    thymeleaf:
+        mode: XHTML
+
+project:
+    artifactid: random-site
+    name: random-site
+    description: rand-site
+
+info:
+    app:
+        name: random-site
+        description: is a Spring Boot Application
+
+security:
+    basic:
+        enabled: false
+
+#random custeom config
+randomX:
+    security:
+        authentication:
+            xauth:
+                secret: myXAuthSecret
+                # Token is valid 30 minutes
+                tokenValidityInSeconds: 1800
+            jwt:
+                issuer: random
+                secret: randomJwtSecret
+                #time when the token will expire (10 minutes from now)
+                tokenValidityInMinutes: 30
+                #time when the token will expire (10 minutes from now)
+                notBeforeMinutesInThePast: 0
+                # allow some leeway in validating time based claims to account for clock skew
+                allowedClockSkewInSeconds: 30
+        rememberme:
+            # security key (this key should be unique for your application, and kept secret)
+            key: 1cf124e7368ecb5e50b7f4ea086e584b9ac48f13

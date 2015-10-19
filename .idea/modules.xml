@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/random.iml" filepath="$PROJECT_DIR$/random.iml" />
+      <module fileurl="file://$PROJECT_DIR$/random-client/random-client.iml" filepath="$PROJECT_DIR$/random-client/random-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/random-common/random-common.iml" filepath="$PROJECT_DIR$/random-common/random-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/random-site/random-site.iml" filepath="$PROJECT_DIR$/random-site/random-site.iml" />
+    </modules>
+  </component>
+</project>

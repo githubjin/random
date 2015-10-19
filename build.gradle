@@ -1,0 +1,83 @@
+def vJavaLang = '1.8'
+def javaProjects = [project(':random-site'), project(':random-common')]
+def bootProjects = javaProjects - project(':random-common')
+def gradleDir = "${rootProject.rootDir}/gradle"
+//spring.profiles.active
+rootProject.ext.profilesctive = 'dev'
+
+wrapper.gradleVersion = '2.5'
+
+buildscript {
+    ext.springRepo = 'http://repo.spring.io/libs-release'
+    ext.springSnapshotRepo = 'http://repo.spring.io/snapshot'
+
+    repositories {
+        mavenLocal()
+        maven { url springRepo }
+        maven { url springSnapshotRepo}
+    }
+
+    dependencies {
+        classpath "io.spring.gradle:dependency-management-plugin:${dependency_management_plugin_version}"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${spring_boot_gradle_plugin_version}"
+    }
+}
+
+configure(allprojects) {
+    apply plugin: 'idea'
+    apply plugin: 'eclipse'
+}
+
+configure(javaProjects) {
+    apply plugin: 'java'
+
+    targetCompatibility = vJavaLang
+    sourceCompatibility = vJavaLang
+
+    repositories {
+        mavenLocal()
+        maven { url springRepo }
+        maven { url springSnapshotRepo}
+    }
+
+    dependencies {
+        compile 'org.slf4j:slf4j-api'
+        compile 'org.projectlombok:lombok'
+        testCompile 'junit:junit'
+        testCompile 'org.hamcrest:hamcrest-library'
+        testCompile 'org.mockito:mockito-core'
+        testCompile 'org.objenesis:objenesis'
+    }
+
+    configurations {
+        // replaced with jcl-over-slf4j
+        all*.exclude group: 'commons-logging', module: 'commons-logging'
+        // replaced with log4j-over-slf4j
+        all*.exclude group: 'log4j', module: 'log4j'
+    }
+
+    // Ensure that all Gradle-compiled classes are available to Eclipse's
+    // classpath.
+    eclipseClasspath.dependsOn testClasses
+
+    // Skip generation and removal of .settings/org.eclipse.jdt.core.prefs files
+    // during the normal `gradle eclipse` / `gradle cleanEclipse` lifecycle, as
+    // these files have been checked in with formatting settings imported from
+    // style/sagan-format.xml and style/sagan.importorder.
+    // See http://www.gradle.org/docs/current/userguide/eclipse_plugin.html
+    eclipseJdt.onlyIf { false }
+    cleanEclipseJdt.onlyIf { false }
+}
+
+configure(bootProjects) {
+    apply plugin: "io.spring.dependency-management"
+    apply plugin: 'spring-boot'
+
+    springBoot.backupSource = false
+
+    dependencyManagement {
+        imports {
+            mavenBom "io.spring.platform:platform-bom:${platform_bom_snapshot_version}"
+        }
+    }
+}

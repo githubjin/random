@@ -1,0 +1,16 @@
+{
+  "name": "random-client",
+  "version": "0.1.0",
+  "homepage": "https://github.com/githubjin/random",
+  "authors": [
+    "githubjin <1252833909@qq.com>"
+  ],
+  "description": "random UI",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

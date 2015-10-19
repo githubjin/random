@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url springRepo }
+        maven { url springSnapshotRepo}
+    }
+    dependencies {
+        classpath "io.spring.gradle:dependency-management-plugin:${dependency_management_plugin_version}"
+    }
+}
+
+apply plugin: "io.spring.dependency-management"
+
+dependencyManagement {
+    imports {
+        mavenBom "io.spring.platform:platform-bom:${platform_bom_snapshot_version}"
+    }
+}
+
+
+dependencies {
+
+    compile 'org.springframework:spring-context'
+    compile 'org.springframework.security:spring-security-core'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    compile 'org.apache.httpcomponents:httpclient'
+
+    compile 'org.elasticsearch:elasticsearch:1.5.2'
+    compile 'io.searchbox:jest:0.1.6'
+    compile 'commons-codec:commons-codec' // needed by Jest's HTTP client?
+
+    compile 'org.pegdown:pegdown:1.5.0'
+
+    // datasource and connection pool dependencies
+//    runtime 'org.postgresql:postgresql:9.4-1201-jdbc4'
+    compile group: 'mysql', name: 'mysql-connector-java'
+    compile 'com.h2database:h2'
+    compile 'org.apache.tomcat:tomcat-jdbc'
+
+    // for use in on-the-fly database setup and migrations
+    compile 'org.flywaydb:flyway-core'
+
+    // jackson, for JSON and XML serialization
+    compile "com.fasterxml.jackson.core:jackson-core"
+    compile "com.fasterxml.jackson.core:jackson-annotations"
+    compile "com.fasterxml.jackson.core:jackson-databind"
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-xml"
+    compile "org.codehaus.woodstox:woodstox-core-asl"
+
+    compile 'org.jsoup:jsoup:1.8.2'
+    compile 'joda-time:joda-time'
+    compile 'org.hibernate:hibernate-validator'
+    compile 'org.hibernate:hibernate-ehcache'
+
+    // for use in rendering AsciiDoc-based guide content to HTML
+    compile 'org.asciidoctor:asciidoctorj:1.5.2'
+
+    // for use of spring-test's MatcherAssertionErrors.*
+    testCompile "org.springframework:spring-test"
+}
