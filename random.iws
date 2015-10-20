@@ -2,144 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1cf4afc-5172-4895-8dbd-622621578abe" name="Default" comment="config something&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenConfigurer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/support/JsonPControllerAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/support/StaticPagePathFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfigurer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/support/BaseEntityClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/support/JsonPController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/properties/RandomProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/service/RbacService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/resources/templates/pages/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/support/ResourceNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/AuthenticationProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/UserDetailService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/SecurityUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/Token.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/resources/db/migration/V1__rbacInitialize.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/UserNotActivatedException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/resources/templates/pages/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/Model/RolePermissionResources.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/JsonpController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/model/Demo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XauthTokenProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/repository/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacPermission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/DatabaseConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUserRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/rbac/RbacController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/SpringSecurityAuditorAware.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Http401UnauthorizedEntryPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/resources/banner.txt" />
-      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-common\src\main\resources\db\migration\v1__rbacInit.sql" afterPath="" />
-      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\resources\application.yaml" afterPath="" />
-      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\java\random\configs\DemoConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\resources\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\java\random\components\DemoComponent.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/random-site/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/src/main/java/random/SiteConfig.java" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/SiteConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-common/build.gradle" afterPath="$PROJECT_DIR$/random-common/build.gradle" />
-      <change type="MODIFICATION" beforePath="I:\git_bus\random\random.ipr" afterPath="I:\git_bus\random\random.ipr" />
-      <change type="MODIFICATION" beforePath="I:\git_bus\random\random-common\random-common.iml" afterPath="I:\git_bus\random\random-common\random-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random.iws" afterPath="$PROJECT_DIR$/random.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/src/main/java/random/controler/DemoController.java" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/DemoController.java" />
-      <change type="MODIFICATION" beforePath="I:\git_bus\random\random-site\random-site.iml" afterPath="I:\git_bus\random\random-site\random-site.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/build.gradle" afterPath="$PROJECT_DIR$/random-site/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenConfigurer.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/support/JsonPControllerAdvice.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/support/StaticPagePathFinder.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfigurer.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/support/BaseEntityClass.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/support/JsonPController.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/properties/RandomProperties.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/service/RbacService.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/resources/templates/pages/404.html"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/support/ResourceNotFoundException.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/AuthenticationProvider.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthConfiguration.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacMenu.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/UserController.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/resources/application.yml"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/UserDetailService.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/SecurityUtils.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUser.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/Token.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/resources/db/migration/V1__rbacInitialize.sql"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/UserNotActivatedException.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenFilter.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/resources/templates/pages/500.html"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacRole.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/Model/RolePermissionResources.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/JsonpController.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfiguration.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/model/Demo.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/Constants.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenProvider.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XauthTokenProvider.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/repository/UserRepository.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacPermission.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/DatabaseConfig.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUserRole.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/rbac/RbacController.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/SpringSecurityAuditorAware.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/security/Http401UnauthorizedEntryPoint.java"/>
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/random-common/src/main/resources/banner.txt"/>
+      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-common\src\main\resources\db\migration\v1__rbacInit.sql" afterPath=""/>
+      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\resources\application.yaml" afterPath=""/>
+      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\java\random\configs\DemoConfig.java" afterPath=""/>
+      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\resources\application.properties" afterPath=""/>
+      <change type="DELETED" beforePath="E:\BaiduYunDownload\random\random\random-site\src\main\java\random\components\DemoComponent.java" afterPath=""/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/random-site/src/main/webapp/index.jsp"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/src/main/java/random/SiteConfig.java" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/SiteConfig.java"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/outputFileStates.bin"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-common/build.gradle" afterPath="$PROJECT_DIR$/random-common/build.gradle"/>
+      <change type="MODIFICATION" beforePath="I:\git_bus\random\random.ipr" afterPath="I:\git_bus\random\random.ipr"/>
+      <change type="MODIFICATION" beforePath="I:\git_bus\random\random-common\random-common.iml" afterPath="I:\git_bus\random\random-common\random-common.iml"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/cache.properties.lock"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileHashes.bin"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random.iws" afterPath="$PROJECT_DIR$/random.iws"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/taskArtifacts.bin"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/src/main/java/random/controler/DemoController.java" afterPath="$PROJECT_DIR$/random-site/src/main/java/random/controler/DemoController.java"/>
+      <change type="MODIFICATION" beforePath="I:\git_bus\random\random-site\random-site.iml" afterPath="I:\git_bus\random\random-site\random-site.iml"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-site/build.gradle" afterPath="$PROJECT_DIR$/random-site/build.gradle"/>
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.6/taskArtifacts/fileSnapshots.bin"/>
     </list>
-    <ignored path="random.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/random-site/.gradle/" />
-    <ignored path="$PROJECT_DIR$/random-site/build/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="$PROJECT_DIR$/random-common/.gradle/" />
-    <ignored path="$PROJECT_DIR$/random-common/build/" />
-    <ignored path="$PROJECT_DIR$/random-client/.gradle/" />
-    <ignored path="$PROJECT_DIR$/random-client/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
+    <ignored path="random.iws"/>
+    <ignored path=".idea/workspace.xml"/>
+    <ignored path="$PROJECT_DIR$/.gradle/"/>
+    <ignored path="$PROJECT_DIR$/build/"/>
+    <ignored path="$PROJECT_DIR$/out/"/>
+    <ignored path="$PROJECT_DIR$/random-site/.gradle/"/>
+    <ignored path="$PROJECT_DIR$/random-site/build/"/>
+    <ignored path=".idea/dataSources.local.xml"/>
+    <ignored path="$PROJECT_DIR$/random-common/.gradle/"/>
+    <ignored path="$PROJECT_DIR$/random-common/build/"/>
+    <ignored path="$PROJECT_DIR$/random-client/.gradle/"/>
+    <ignored path="$PROJECT_DIR$/random-client/build/"/>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true"/>
+    <option name="TRACKING_ENABLED" value="true"/>
+    <option name="SHOW_DIALOG" value="false"/>
+    <option name="HIGHLIGHT_CONFLICTS" value="true"/>
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
+    <option name="LAST_RESOLUTION" value="IGNORE"/>
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false"/>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value=""/>
   </component>
   <component name="DatabaseView">
-    <option name="FLATTEN" value="false" />
-    <option name="GROUP_BY_TYPE" value="true" />
-    <option name="SORT_CHILDREN" value="false" />
-    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <option name="FLATTEN" value="false"/>
+    <option name="GROUP_BY_TYPE" value="true"/>
+    <option name="SORT_CHILDREN" value="false"/>
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true"/>
   </component>
   <component name="DebuggerManager">
-    <ui_properties converted="true" />
+    <ui_properties converted="true"/>
     <breakpoint_any converted="true">
       <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="NOTIFY_CAUGHT" value="true"/>
+        <option name="NOTIFY_UNCAUGHT" value="true"/>
+        <option name="ENABLED" value="false"/>
+        <option name="LOG_ENABLED" value="false"/>
+        <option name="LOG_EXPRESSION_ENABLED" value="false"/>
+        <option name="SUSPEND_POLICY" value="SuspendAll"/>
+        <option name="COUNT_FILTER_ENABLED" value="false"/>
+        <option name="COUNT_FILTER" value="0"/>
+        <option name="CONDITION_ENABLED" value="false"/>
+        <option name="CLASS_FILTERS_ENABLED" value="false"/>
+        <option name="INSTANCE_FILTERS_ENABLED" value="false"/>
+        <option name="CONDITION" value=""/>
+        <option name="LOG_MESSAGE" value=""/>
       </breakpoint>
       <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="NOTIFY_CAUGHT" value="true"/>
+        <option name="NOTIFY_UNCAUGHT" value="true"/>
+        <option name="ENABLED" value="false"/>
+        <option name="LOG_ENABLED" value="false"/>
+        <option name="LOG_EXPRESSION_ENABLED" value="false"/>
+        <option name="SUSPEND_POLICY" value="SuspendAll"/>
+        <option name="COUNT_FILTER_ENABLED" value="false"/>
+        <option name="COUNT_FILTER" value="0"/>
+        <option name="CONDITION_ENABLED" value="false"/>
+        <option name="CLASS_FILTERS_ENABLED" value="false"/>
+        <option name="INSTANCE_FILTERS_ENABLED" value="false"/>
+        <option name="CONDITION" value=""/>
+        <option name="LOG_MESSAGE" value=""/>
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
+    <breakpoint_rules converted="true"/>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target"/>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view/>
       </state>
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="random" />
+    <favorites_list name="random"/>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -147,9 +147,9 @@
         <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6785714">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18"/>
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="true"/>
               </folding>
             </state>
           </provider>
@@ -159,40 +159,40 @@
         <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/MailProperties.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24"/>
               <folding>
-                <element signature="e#418#419#0" expanded="false" />
-                <element signature="e#453#454#0" expanded="false" />
-                <element signature="e#497#498#0" expanded="false" />
-                <element signature="e#537#538#0" expanded="false" />
-                <element signature="e#582#583#0" expanded="false" />
-                <element signature="e#627#628#0" expanded="false" />
-                <element signature="e#691#692#0" expanded="false" />
-                <element signature="e#751#752#0" expanded="false" />
-                <element signature="e#945#946#0" expanded="false" />
-                <element signature="e#972#973#0" expanded="false" />
-                <element signature="e#1003#1004#0" expanded="false" />
-                <element signature="e#1030#1031#0" expanded="false" />
-                <element signature="e#1061#1062#0" expanded="false" />
-                <element signature="e#1088#1089#0" expanded="false" />
-                <element signature="e#1123#1124#0" expanded="false" />
-                <element signature="e#1154#1155#0" expanded="false" />
-                <element signature="e#1189#1190#0" expanded="false" />
-                <element signature="e#1220#1221#0" expanded="false" />
-                <element signature="e#1260#1261#0" expanded="false" />
-                <element signature="e#1292#1293#0" expanded="false" />
-                <element signature="e#1332#1333#0" expanded="false" />
-                <element signature="e#1364#1365#0" expanded="false" />
-                <element signature="e#1404#1405#0" expanded="false" />
-                <element signature="e#1436#1437#0" expanded="false" />
-                <element signature="e#1484#1485#0" expanded="false" />
-                <element signature="e#1524#1525#0" expanded="false" />
-                <element signature="e#1572#1573#0" expanded="false" />
-                <element signature="e#1612#1613#0" expanded="false" />
-                <element signature="e#1650#1651#0" expanded="false" />
-                <element signature="e#1682#1683#0" expanded="false" />
-                <element signature="e#1711#1712#0" expanded="false" />
-                <element signature="e#1738#1739#0" expanded="false" />
+                <element signature="e#418#419#0" expanded="false"/>
+                <element signature="e#453#454#0" expanded="false"/>
+                <element signature="e#497#498#0" expanded="false"/>
+                <element signature="e#537#538#0" expanded="false"/>
+                <element signature="e#582#583#0" expanded="false"/>
+                <element signature="e#627#628#0" expanded="false"/>
+                <element signature="e#691#692#0" expanded="false"/>
+                <element signature="e#751#752#0" expanded="false"/>
+                <element signature="e#945#946#0" expanded="false"/>
+                <element signature="e#972#973#0" expanded="false"/>
+                <element signature="e#1003#1004#0" expanded="false"/>
+                <element signature="e#1030#1031#0" expanded="false"/>
+                <element signature="e#1061#1062#0" expanded="false"/>
+                <element signature="e#1088#1089#0" expanded="false"/>
+                <element signature="e#1123#1124#0" expanded="false"/>
+                <element signature="e#1154#1155#0" expanded="false"/>
+                <element signature="e#1189#1190#0" expanded="false"/>
+                <element signature="e#1220#1221#0" expanded="false"/>
+                <element signature="e#1260#1261#0" expanded="false"/>
+                <element signature="e#1292#1293#0" expanded="false"/>
+                <element signature="e#1332#1333#0" expanded="false"/>
+                <element signature="e#1364#1365#0" expanded="false"/>
+                <element signature="e#1404#1405#0" expanded="false"/>
+                <element signature="e#1436#1437#0" expanded="false"/>
+                <element signature="e#1484#1485#0" expanded="false"/>
+                <element signature="e#1524#1525#0" expanded="false"/>
+                <element signature="e#1572#1573#0" expanded="false"/>
+                <element signature="e#1612#1613#0" expanded="false"/>
+                <element signature="e#1650#1651#0" expanded="false"/>
+                <element signature="e#1682#1683#0" expanded="false"/>
+                <element signature="e#1711#1712#0" expanded="false"/>
+                <element signature="e#1738#1739#0" expanded="false"/>
               </folding>
             </state>
           </provider>
@@ -202,8 +202,8 @@
         <entry file="file://$PROJECT_DIR$/random-site/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-              <folding />
+              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63"/>
+              <folding/>
             </state>
           </provider>
         </entry>
@@ -212,8 +212,8 @@
         <entry file="file://$PROJECT_DIR$/random-common/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="47" />
-              <folding />
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="47"/>
+              <folding/>
             </state>
           </provider>
         </entry>
@@ -222,8 +222,8 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
+              <folding/>
             </state>
           </provider>
         </entry>
@@ -232,8 +232,8 @@
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="47" />
-              <folding />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="47"/>
+              <folding/>
             </state>
           </provider>
         </entry>
@@ -242,9 +242,9 @@
         <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/AuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13"/>
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="false"/>
               </folding>
             </state>
           </provider>
@@ -254,9 +254,9 @@
         <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/SpringSecurityAuditorAware.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3"/>
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="false"/>
               </folding>
             </state>
           </provider>
@@ -267,517 +267,517 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
-        <option value="Class" />
+        <option value="Html5"/>
+        <option value="Class"/>
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="1252833909@qq.com" />
+        <option value="1252833909@qq.com"/>
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$"/>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
-      <projects_view />
+      <projects_view/>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUserRole.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/resources/application-pro.properties" />
-        <option value="$PROJECT_DIR$/random-site/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/BaseEntityClass.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacMenu.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/resources/db/migration/v1__rbacInit.sql" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUser.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/UserNotActivatedException.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/random-common/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/Http401UnauthorizedEntryPoint.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/service/UserService.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/UserDetailService.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacPermission.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/resources/db/migration/V1__rbacInitialize.sql" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/Model/RolePermissionResources.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/JwtTokenConfigurer.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/JwtTokenConfiguration.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/JwtTokenProvider.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/TokenProvider.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/XauthTokenProvider.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/XAuthConfiguration.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfiguration.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfigurer.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenFilter.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenConfigurer.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthConfiguration.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XauthTokenProvider.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/Token.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/DemoMailConfig.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/controler/DemoController.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/random-site/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/properties/RandomProperties.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/AuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/SecurityUtils.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/Constants.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/SpringSecurityAuditorAware.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/SiteConfig.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/DatabaseConfig.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/controller/RbacController.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/controler/RbacController.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/controler/rbac/RbacController.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/service/RbacService.java" />
-        <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/MailProperties.java" />
-        <option value="$PROJECT_DIR$/random-site/build.gradle" />
-        <option value="$PROJECT_DIR$/random-common/build.gradle" />
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUserRole.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/resources/application-pro.properties"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/resources/application-dev.properties"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/BaseEntityClass.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacMenu.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/resources/db/migration/v1__rbacInit.sql"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/config/SecurityConfig.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacUser.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/UserNotActivatedException.java"/>
+        <option value="$PROJECT_DIR$/build.gradle"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/resources/banner.txt"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/Http401UnauthorizedEntryPoint.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/service/UserService.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/UserDetailService.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/entity/RbacPermission.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/resources/db/migration/V1__rbacInitialize.sql"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/Model/RolePermissionResources.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/JwtTokenConfigurer.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/JwtTokenConfiguration.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/JwtTokenProvider.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/TokenProvider.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/XauthTokenProvider.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/XAuthConfiguration.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfiguration.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfigurer.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenFilter.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenConfigurer.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthConfiguration.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XauthTokenProvider.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/Token.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/DemoMailConfig.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/controler/DemoController.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/resources/application.properties"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/resources/application.yml"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/properties/RandomProperties.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/AuthenticationProvider.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/SecurityUtils.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/Constants.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/security/SpringSecurityAuditorAware.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/SiteConfig.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/DatabaseConfig.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/controller/RbacController.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/controler/RbacController.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/controler/rbac/RbacController.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/repository/UserRepository.java"/>
+        <option value="$PROJECT_DIR$/random-common/src/main/java/random/rbac/service/RbacService.java"/>
+        <option value="$PROJECT_DIR$/gradle.properties"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java"/>
+        <option value="$PROJECT_DIR$/random-site/src/main/java/random/configs/MailProperties.java"/>
+        <option value="$PROJECT_DIR$/random-site/build.gradle"/>
+        <option value="$PROJECT_DIR$/random-common/build.gradle"/>
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true"/>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="mavenHome" value="Bundled (Maven 3)"/>
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ModuleEditorState">
-    <option name="LAST_EDITED_MODULE_NAME" />
-    <option name="LAST_EDITED_TAB_NAME" />
+    <option name="LAST_EDITED_MODULE_NAME"/>
+    <option name="LAST_EDITED_TAB_NAME"/>
   </component>
   <component name="NamedScopeManager">
-    <order />
+    <order/>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8"/>
+    <option name="y" value="-8"/>
+    <option name="width" value="1936"/>
+    <option name="height" value="1056"/>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
-      <profile-state />
+      <profile-state/>
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <OptionsSetting value="true" id="Add"/>
+    <OptionsSetting value="true" id="Remove"/>
+    <OptionsSetting value="true" id="Checkout"/>
+    <OptionsSetting value="true" id="Update"/>
+    <OptionsSetting value="true" id="Status"/>
+    <OptionsSetting value="true" id="Edit"/>
+    <ConfirmationsSetting value="0" id="Add"/>
+    <ConfirmationsSetting value="0" id="Remove"/>
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="1"/>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
+      <flattenPackages/>
+      <showMembers/>
+      <showModules/>
+      <showLibraryContents/>
+      <hideEmptyPackages/>
+      <abbreviatePackageNames/>
+      <autoscrollToSource/>
+      <autoscrollFromSource/>
+      <sortByType/>
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scratches"/>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="random" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="random"/>
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="random" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="random"/>
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="random" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="random"/>
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="PackagesPane"/>
+      <pane id="Scope"/>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="FullScreen" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false"/>
+    <property name="GoToClass.toSaveIncludeLibraries" value="false"/>
+    <property name="MemberChooser.sorted" value="false"/>
+    <property name="MemberChooser.showClasses" value="true"/>
+    <property name="GoToClass.includeLibraries" value="false"/>
+    <property name="MemberChooser.copyJavadoc" value="false"/>
+    <property name="aspect.path.notification.shown" value="true"/>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$"/>
+    <property name="WebServerToolWindowFactoryState" value="false"/>
+    <property name="OverrideImplement.combined" value="true"/>
+    <property name="OverrideImplement.overriding.sorted" value="false"/>
+    <property name="project.structure.last.edited" value="Project"/>
+    <property name="project.structure.proportion" value="0.15"/>
+    <property name="project.structure.side.proportion" value="0.2"/>
+    <property name="settings.editor.selected.configurable" value="File.Encoding"/>
+    <property name="settings.editor.splitter.proportion" value="0.2"/>
+    <property name="DefaultHtmlFileTemplate" value="Html5"/>
+    <property name="FullScreen" value="false"/>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gradle_worspace\random\random-site\src\main\java\random\security" />
-      <recent name="F:\gradle_worspace\random\random-site\src\main\java\random\configs" />
-      <recent name="F:\gradle_worspace\random\random-site\src\main\java\random\security\xauth" />
-      <recent name="F:\gradle_worspace\random\random-common\src\main\resources" />
-      <recent name="F:\QQDownload\random\random-client" />
+      <recent name="F:\gradle_worspace\random\random-site\src\main\java\random\security"/>
+      <recent name="F:\gradle_worspace\random\random-site\src\main\java\random\configs"/>
+      <recent name="F:\gradle_worspace\random\random-site\src\main\java\random\security\xauth"/>
+      <recent name="F:\gradle_worspace\random\random-common\src\main\resources"/>
+      <recent name="F:\QQDownload\random\random-client"/>
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\gradle_worspace\random\random-site\src\main\resources" />
-      <recent name="F:\gradle_worspace\random\random-common\src\main" />
-      <recent name="F:\gradle_worspace\random\random-common\src\resources\db" />
-      <recent name="F:\gradle_worspace\random\random-common\src\resources" />
-      <recent name="F:\gradle_worspace\random\random-common\src\main\java\random" />
+      <recent name="F:\gradle_worspace\random\random-site\src\main\resources"/>
+      <recent name="F:\gradle_worspace\random\random-common\src\main"/>
+      <recent name="F:\gradle_worspace\random\random-common\src\resources\db"/>
+      <recent name="F:\gradle_worspace\random\random-common\src\resources"/>
+      <recent name="F:\gradle_worspace\random\random-common\src\main\java\random"/>
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="random.commandLineRunners" />
+      <recent name="random.commandLineRunners"/>
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <method />
+      <module/>
+      <option name="HTML_USED" value="false"/>
+      <option name="WIDTH" value="400"/>
+      <option name="HEIGHT" value="300"/>
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <method/>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <extension name="coverage" enabled="false" merge="false" runner="idea"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <module name=""/>
+      <envs/>
+      <method/>
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <option name="myFilePath"/>
+      <option name="GLUE"/>
+      <option name="myNameFilter"/>
+      <option name="myGeneratedName"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <module name=""/>
+      <envs/>
+      <method/>
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
+      <option name="BCName" value=""/>
+      <option name="IOSSimulatorSdkPath" value=""/>
+      <option name="adlOptions" value=""/>
+      <option name="airProgramParameters" value=""/>
+      <option name="appDescriptorForEmulator" value="Android"/>
+      <option name="debugTransport" value="USB"/>
+      <option name="debuggerSdkRaw" value="BC SDK"/>
+      <option name="emulator" value="NexusOne"/>
+      <option name="emulatorAdlOptions" value=""/>
+      <option name="fastPackaging" value="true"/>
+      <option name="fullScreenHeight" value="0"/>
+      <option name="fullScreenWidth" value="0"/>
+      <option name="launchUrl" value="false"/>
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8"/>
+          <option name="launcherType" value="OSDefault"/>
+          <option name="newPlayerInstance" value="false"/>
+          <option name="playerPath" value="FlashPlayerDebugger.exe"/>
         </LauncherParameters>
       </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
+      <option name="mobileRunTarget" value="Emulator"/>
+      <option name="moduleName" value=""/>
+      <option name="overriddenMainClass" value=""/>
+      <option name="overriddenOutputFileName" value=""/>
+      <option name="overrideMainClass" value="false"/>
+      <option name="runTrusted" value="true"/>
+      <option name="screenDpi" value="0"/>
+      <option name="screenHeight" value="0"/>
+      <option name="screenWidth" value="0"/>
+      <option name="url" value="http://"/>
+      <option name="usbDebugPort" value="7936"/>
+      <method/>
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
+      <option name="BCName" value=""/>
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8"/>
+          <option name="launcherType" value="OSDefault"/>
+          <option name="newPlayerInstance" value="false"/>
+          <option name="playerPath" value="FlashPlayerDebugger.exe"/>
         </LauncherParameters>
       </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
+      <option name="moduleName" value=""/>
+      <option name="trusted" value="true"/>
+      <method/>
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="executionName"/>
+        <option name="externalProjectPath"/>
+        <option name="externalSystemIdString" value="GRADLE"/>
+        <option name="scriptParameters"/>
         <option name="taskDescriptions">
-          <list />
+          <list/>
         </option>
         <option name="taskNames">
-          <list />
+          <list/>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions"/>
       </ExternalSystemSettings>
-      <method />
+      <method/>
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <method />
+      <module name=""/>
+      <setting name="vmparams" value=""/>
+      <setting name="cmdLine" value="run-app"/>
+      <setting name="depsClasspath" value="false"/>
+      <setting name="passParentEnv" value="true"/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <setting name="launchBrowser" value="false"/>
+      <method/>
     </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method />
+      <module name=""/>
+      <setting name="path" value=""/>
+      <setting name="vmparams" value=""/>
+      <setting name="params" value=""/>
+      <setting name="workDir" value="file://$PROJECT_DIR$"/>
+      <setting name="debug" value="false"/>
+      <method/>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <extension name="coverage" enabled="false" merge="false" runner="idea"/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="TEST_OBJECT" value="class"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="PARAMETERS"/>
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="moduleWithDependencies"/>
       </option>
-      <envs />
-      <patterns />
-      <method />
+      <envs/>
+      <patterns/>
+      <method/>
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <envs/>
+      <method/>
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
+      <method/>
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
+      <method/>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
+      <option name="USE_SOCKET_TRANSPORT" value="true"/>
+      <option name="SERVER_MODE" value="false"/>
+      <option name="SHMEM_ADDRESS" value="javadebug"/>
+      <option name="HOST" value="localhost"/>
+      <option name="PORT" value="5005"/>
+      <method/>
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <module name=""/>
+      <envs/>
+      <method/>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="SUITE_NAME"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="GROUP_NAME"/>
+      <option name="TEST_OBJECT" value="CLASS"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+      <option name="OUTPUT_DIRECTORY"/>
+      <option name="ANNOTATION_TYPE"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="singleModule"/>
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
+      <option name="USE_DEFAULT_REPORTERS" value="false"/>
+      <option name="PROPERTIES_FILE"/>
+      <envs/>
+      <properties/>
+      <listeners/>
+      <method/>
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
+      <node-options/>
+      <gulpfile/>
+      <tasks/>
+      <arguments/>
       <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
+      <envs/>
+      <method/>
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
+      <method/>
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
+      <method/>
     </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false"/>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration/>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c1cf4afc-5172-4895-8dbd-622621578abe" name="Default" comment="" />
+      <changelist id="c1cf4afc-5172-4895-8dbd-622621578abe" name="Default" comment=""/>
       <created>1444821156517</created>
-      <option name="number" value="Default" />
+      <option name="number" value="Default"/>
       <updated>1444821156517</updated>
-      <workItem from="1444821156909" duration="1324000" />
-      <workItem from="1444822527568" duration="2255000" />
-      <workItem from="1444830960680" duration="784000" />
-      <workItem from="1444831781816" duration="14464000" />
-      <workItem from="1444873032470" duration="1058000" />
-      <workItem from="1444874106886" duration="40783000" />
-      <workItem from="1444994537449" duration="1279000" />
-      <workItem from="1445047200623" duration="45303000" />
-      <workItem from="1445153928603" duration="30976000" />
-      <workItem from="1445217077343" duration="3098000" />
-      <workItem from="1445239839023" duration="354000" />
-      <workItem from="1445240218349" duration="97000" />
-      <workItem from="1445240316477" duration="315000" />
-      <workItem from="1445240697366" duration="120000" />
-      <workItem from="1445240828587" duration="278000" />
-      <workItem from="1445241149280" duration="301000" />
+      <workItem from="1444821156909" duration="1324000"/>
+      <workItem from="1444822527568" duration="2255000"/>
+      <workItem from="1444830960680" duration="784000"/>
+      <workItem from="1444831781816" duration="14464000"/>
+      <workItem from="1444873032470" duration="1058000"/>
+      <workItem from="1444874106886" duration="40783000"/>
+      <workItem from="1444994537449" duration="1279000"/>
+      <workItem from="1445047200623" duration="45303000"/>
+      <workItem from="1445153928603" duration="30976000"/>
+      <workItem from="1445217077343" duration="3098000"/>
+      <workItem from="1445239839023" duration="354000"/>
+      <workItem from="1445240218349" duration="97000"/>
+      <workItem from="1445240316477" duration="315000"/>
+      <workItem from="1445240697366" duration="120000"/>
+      <workItem from="1445240828587" duration="278000"/>
+      <workItem from="1445241149280" duration="301000"/>
     </task>
-    <servers />
+    <servers/>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142789000" />
+    <option name="totallyTimeSpent" value="142789000"/>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6"/>
+    <editor active="false"/>
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22510822" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3538961" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20948827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette " active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6510574" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3517316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs"/>
+      <window_info id="Palette " active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22510822" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs"/>
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs"/>
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs"/>
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs"/>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3538961" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs"/>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs"/>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20948827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo"/>
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs"/>
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs"/>
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs"/>
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs"/>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs"/>
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs"/>
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs"/>
+      <window_info id="Palette " active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs"/>
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6510574" sideWeight="0.5" order="2" side_tool="false" content_ui="combo"/>
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs"/>
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs"/>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs"/>
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs"/>
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3517316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs"/>
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs"/>
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
+      <collection/>
     </option>
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
+      <collection/>
     </option>
   </component>
   <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="myLimit" value="2678400000"/>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true"/>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="3"/>
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager/>
   </component>
   <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>
+    <option name="FILTER_TARGETS" value="false"/>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="true"/>
           </folding>
         </state>
       </provider>
@@ -785,25 +785,25 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="47" />
-          <folding />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="47"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/AuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13"/>
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="false"/>
           </folding>
         </state>
       </provider>
@@ -811,9 +811,9 @@
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/SpringSecurityAuditorAware.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3"/>
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="false"/>
           </folding>
         </state>
       </provider>
@@ -821,9 +821,9 @@
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19"/>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="true"/>
           </folding>
         </state>
       </provider>
@@ -831,271 +831,271 @@
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/exitCodeGenerator/DemoExitCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/model/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XauthTokenProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/Token.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/resources/mail.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/SiteMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35185185">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/resources/application-pro.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.66056913">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-common/src/main/java/random/properties/RandomProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16994633">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6785715">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="7" />
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="7"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/Http401UnauthorizedEntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.0.2.RELEASE/a3a0b3255f2c5bbc2e9dddff6de90d48677a5003/spring-security-config-4.0.2.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33273703">
-          <caret line="320" column="125" selection-start-line="320" selection-start-column="115" selection-end-line="320" selection-end-column="125" />
+          <caret line="320" column="125" selection-start-line="320" selection-start-column="115" selection-end-line="320" selection-end-column="125"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/UserDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="40" />
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="40"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/DemoMailConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028960818">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-common/src/main/java/random/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4531516">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/SecurityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+          <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/SiteConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32367972">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-common/src/main/java/random/DatabaseConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29131174">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/controler/JsonpController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29131174">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/controler/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5826235">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="23" />
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="23"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/xauth/XAuthTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.003407155">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/controler/rbac/RbacController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="47" />
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="47"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-common/src/main/java/random/rbac/service/RbacService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-common/src/main/java/random/rbac/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3560477">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09023941">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/exitCodeGenerator/DemoExitCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/model/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/Jwt/JwtTokenProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73480666">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35"/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="47" />
-          <folding />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="47"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/AuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13"/>
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="false"/>
           </folding>
         </state>
       </provider>
@@ -1103,9 +1103,9 @@
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/security/SpringSecurityAuditorAware.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3"/>
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="false"/>
           </folding>
         </state>
       </provider>
@@ -1113,40 +1113,40 @@
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/MailProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24"/>
           <folding>
-            <element signature="e#418#419#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#751#752#0" expanded="false" />
-            <element signature="e#945#946#0" expanded="false" />
-            <element signature="e#972#973#0" expanded="false" />
-            <element signature="e#1003#1004#0" expanded="false" />
-            <element signature="e#1030#1031#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
-            <element signature="e#1088#1089#0" expanded="false" />
-            <element signature="e#1123#1124#0" expanded="false" />
-            <element signature="e#1154#1155#0" expanded="false" />
-            <element signature="e#1189#1190#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-            <element signature="e#1292#1293#0" expanded="false" />
-            <element signature="e#1332#1333#0" expanded="false" />
-            <element signature="e#1364#1365#0" expanded="false" />
-            <element signature="e#1404#1405#0" expanded="false" />
-            <element signature="e#1436#1437#0" expanded="false" />
-            <element signature="e#1484#1485#0" expanded="false" />
-            <element signature="e#1524#1525#0" expanded="false" />
-            <element signature="e#1572#1573#0" expanded="false" />
-            <element signature="e#1612#1613#0" expanded="false" />
-            <element signature="e#1650#1651#0" expanded="false" />
-            <element signature="e#1682#1683#0" expanded="false" />
-            <element signature="e#1711#1712#0" expanded="false" />
-            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false"/>
+            <element signature="e#453#454#0" expanded="false"/>
+            <element signature="e#497#498#0" expanded="false"/>
+            <element signature="e#537#538#0" expanded="false"/>
+            <element signature="e#582#583#0" expanded="false"/>
+            <element signature="e#627#628#0" expanded="false"/>
+            <element signature="e#691#692#0" expanded="false"/>
+            <element signature="e#751#752#0" expanded="false"/>
+            <element signature="e#945#946#0" expanded="false"/>
+            <element signature="e#972#973#0" expanded="false"/>
+            <element signature="e#1003#1004#0" expanded="false"/>
+            <element signature="e#1030#1031#0" expanded="false"/>
+            <element signature="e#1061#1062#0" expanded="false"/>
+            <element signature="e#1088#1089#0" expanded="false"/>
+            <element signature="e#1123#1124#0" expanded="false"/>
+            <element signature="e#1154#1155#0" expanded="false"/>
+            <element signature="e#1189#1190#0" expanded="false"/>
+            <element signature="e#1220#1221#0" expanded="false"/>
+            <element signature="e#1260#1261#0" expanded="false"/>
+            <element signature="e#1292#1293#0" expanded="false"/>
+            <element signature="e#1332#1333#0" expanded="false"/>
+            <element signature="e#1364#1365#0" expanded="false"/>
+            <element signature="e#1404#1405#0" expanded="false"/>
+            <element signature="e#1436#1437#0" expanded="false"/>
+            <element signature="e#1484#1485#0" expanded="false"/>
+            <element signature="e#1524#1525#0" expanded="false"/>
+            <element signature="e#1572#1573#0" expanded="false"/>
+            <element signature="e#1612#1613#0" expanded="false"/>
+            <element signature="e#1650#1651#0" expanded="false"/>
+            <element signature="e#1682#1683#0" expanded="false"/>
+            <element signature="e#1711#1712#0" expanded="false"/>
+            <element signature="e#1738#1739#0" expanded="false"/>
           </folding>
         </state>
       </provider>
@@ -1154,41 +1154,41 @@
     <entry file="file://$PROJECT_DIR$/random-site/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding />
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-common/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="47" />
-          <folding />
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="47"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.0.2.RELEASE/a3a0b3255f2c5bbc2e9dddff6de90d48677a5003/spring-security-config-4.0.2.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5741279">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-          <folding />
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18"/>
+          <folding/>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6785714">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18"/>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="true"/>
           </folding>
         </state>
       </provider>
@@ -1198,26 +1198,26 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor/>
           <last-edited>Gradle : cn.random:random-site : random-site-1.0-SNAPSHOT.war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.5" />
+                <option value="0.2"/>
+                <option value="0.5"/>
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
-      <state key="Copyright.UI" />
+      <state key="Copyright.UI"/>
       <state key="FacetStructureConfigurable.UI">
         <settings>
           <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2"/>
               </list>
             </option>
           </splitter-proportions>
@@ -1228,7 +1228,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2"/>
               </list>
             </option>
           </splitter-proportions>
@@ -1240,7 +1240,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2"/>
               </list>
             </option>
           </splitter-proportions>
@@ -1252,27 +1252,27 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.2"/>
+                <option value="0.6"/>
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ProjectJDKs.UI" />
+      <state key="ProjectJDKs.UI"/>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>random-client node_modules</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2"/>
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ScopeChooserConfigurable.UI" />
+      <state key="ScopeChooserConfigurable.UI"/>
     </states>
   </component>
 </project>
