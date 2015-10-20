@@ -13,13 +13,12 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.filter.CharacterEncodingFilter;
+import random.filter.CachingHttpHeadersFilter;
+import random.filter.StaticResourcesProductionFilter;
 import random.support.ResourceNotFoundException;
 
 import javax.inject.Inject;
-import javax.servlet.DispatcherType;
-import javax.servlet.Filter;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
+import javax.servlet.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.EnumSet;
@@ -53,13 +52,46 @@ public class WebConfig  implements ServletContextInitializer, EmbeddedServletCon
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         logger.info("Web application configuration, using profiles: {}", Arrays.toString(env.getActiveProfiles()));
-        EnumSet<DispatcherType> disps EnumSet.of(DispatcherType.REQUEST, DispatcherType.FORWARD, DispatcherType.ASYNC);
-
+        EnumSet<DispatcherType> disps = EnumSet.of(DispatcherType.REQUEST, DispatcherType.FORWARD, DispatcherType.ASYNC);
+        this.initCacheingHttpHeaderFilter(servletContext, disps);
+        this.initStaticResoucesProductionFilter(servletContext, disps);
         logger.info("Web applcation fully configured ");
     }
 
-    private void initCacheingHttpHeaderFilter(ServletContext servletContext, EnumSet<DispatcherType> disps) {
+    private void initGzipFilter(ServletContext servletContext, EnumSet<DispatcherType> disps) {
+        logger.debug("registering GZip filter");
+        servletContext.addFilter("gzipFilter", new Gzip)
+    }
 
+    /**
+     * Initializes the static resources produnction filter
+     * @param servletContext
+     * @param disps
+     */
+    private void initStaticResoucesProductionFilter(ServletContext servletContext,
+                                                    EnumSet<DispatcherType> disps) {
+        logger.debug("Registering static resources production Filter");
+        FilterRegistration.Dynamic staticResourcesProductionFilter = servletContext.addFilter("staticResourcesProductionFilter", new StaticResourcesProductionFilter());
+
+        staticResourcesProductionFilter.addMappingForUrlPatterns(disps, true, "/");
+        staticResourcesProductionFilter.addMappingForUrlPatterns(disps, true, "/index.html");
+        staticResourcesProductionFilter.addMappingForUrlPatterns(disps, true, "/assets/*");
+        staticResourcesProductionFilter.addMappingForUrlPatterns(disps, true, "/scripts/*");
+        staticResourcesProductionFilter.setAsyncSupported(true);
+    }
+
+    /**
+     * Initializes the caching HTTP Headers Filter
+     * @param servletContext
+     * @param disps
+     */
+    private void initCacheingHttpHeaderFilter(ServletContext servletContext, EnumSet<DispatcherType> disps) {
+        logger.debug("registering caching http headers filter");
+        FilterRegistration.Dynamic cachingHttpHeadersPilter = servletContext.addFilter("cachingHttpHeadersPilter", new CachingHttpHeadersFilter(env));
+
+        cachingHttpHeadersPilter.addMappingForUrlPatterns(disps, true, "/assets/*");
+        cachingHttpHeadersPilter.addMappingForUrlPatterns(disps, true, "/scripts/*");
+        cachingHttpHeadersPilter.setAsyncSupported(true);
     }
 
     @Configuration
