@@ -1,8 +1,12 @@
 package random.rbac.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.annotations.Type;
+import org.joda.time.DateTime;
 import random.support.BaseEntityClass;
 
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.sql.Date;
 
 /**
@@ -30,16 +34,39 @@ public class RbacUser extends BaseEntityClass{
     @Column(name="activated", nullable = false)
     private boolean activated = false;
 
+    @Size(min = 2, max = 5)
+    @Column(name = "lang_key", length = 5)
+    private String langKey;
+
+    @Size(max = 20)
+    @Column(name = "activation_key", length = 20)
+    @JsonIgnore
+    private String activationKey;
+
+    @Size(max = 20)
+    @Column(name = "reset_key", length = 20)
+    private String resetKey;
+
+    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+    @Column(name = "reset_date", nullable = true)
+    private DateTime resetDate = null;
+
     public RbacUser() {
     }
 
-    public RbacUser(String userName, String userPwd, String realName, String email, String tel, Date validateDate) {
+    public RbacUser(Date createDate, Long creator, String isValid, String commonts, String userName, String userPwd, String realName, String email, String tel, Date validateDate, boolean activated, String langKey, String activationKey, String resetKey, DateTime resetDate) {
+        super(createDate, creator, isValid, commonts);
         this.userName = userName;
         this.userPwd = userPwd;
         this.realName = realName;
         this.email = email;
         this.tel = tel;
         this.validateDate = validateDate;
+        this.activated = activated;
+        this.langKey = langKey;
+        this.activationKey = activationKey;
+        this.resetKey = resetKey;
+        this.resetDate = resetDate;
     }
 
     public void setUserId(Long userId) {
@@ -105,5 +132,41 @@ public class RbacUser extends BaseEntityClass{
     public boolean getActivated() {
 
         return activated;
+    }
+
+    public boolean isActivated() {
+        return activated;
+    }
+
+    public String getLangKey() {
+        return langKey;
+    }
+
+    public void setLangKey(String langKey) {
+        this.langKey = langKey;
+    }
+
+    public String getActivationKey() {
+        return activationKey;
+    }
+
+    public void setActivationKey(String activationKey) {
+        this.activationKey = activationKey;
+    }
+
+    public String getResetKey() {
+        return resetKey;
+    }
+
+    public void setResetKey(String resetKey) {
+        this.resetKey = resetKey;
+    }
+
+    public DateTime getResetDate() {
+        return resetDate;
+    }
+
+    public void setResetDate(DateTime resetDate) {
+        this.resetDate = resetDate;
     }
 }

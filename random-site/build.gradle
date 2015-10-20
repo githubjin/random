@@ -26,10 +26,11 @@ dependencies {
     compile "org.springframework.security:spring-security-acl"
     //spEl
     compile "org.springframework.security:spring-security-data"
-    compile 'org.springframework.security:spring-security-data'
 
     //jwt
     compile 'org.bitbucket.b_c:jose4j:0.4.4'
+    //javax
+    compile 'javax.inject:javax.inject'
 
     // Thymeleaf is used as the template engine for serving HTML
     /* compile 'org.thymeleaf:thymeleaf'
