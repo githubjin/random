@@ -1,0 +1,53 @@
+# ===================================================================
+# Spring Boot configuration for the "dev" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+#spring profile
+spring:
+    profiles:
+        active: pro
+    datasource:
+        driver-class-name: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+        url: jdbc:mysql://localhost:3306/random?useUnicode=true&characterEncoding=utf8
+        username: root
+        password:
+    jpa:
+        database-platform: org.hibernate.dialect.MySQLInnoDBDialect
+        database: MYSQL
+        show-sql: false
+        properties:
+            hibernate:
+                cache:
+                    use_second_level_cache: true
+                    use_query_cache: true
+                    region:
+                        factory_class: org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory
+                generate_statistics: true
+    thymeleaf:
+        cache: false
+    mail:
+        host: email.ujn.edu.cn
+        username: cngradms@ujn.edu.cn
+        password: wlyrjsyb
+        port: 25
+#Server config
+server:
+    port: 8080
+    address: localhost
+#endpoints config
+endpoints:
+    shutdown:
+        enabled: true
+
+#randomX config
+randonX:
+    http:
+        cache: # Used by the CachingHttpHeadersFilter
+            timeToLiveInDays: 31

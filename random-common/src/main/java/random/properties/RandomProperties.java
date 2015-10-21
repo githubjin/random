@@ -16,6 +16,39 @@ import javax.validation.constraints.NotNull;
 public class RandomProperties {
 
     private Security security = new Security();
+    private Http http = new Http();
+
+    public Http getHttp() {
+        return http;
+    }
+
+    public void setHttp(Http http) {
+        this.http = http;
+    }
+
+    public static class Http {
+        private Cache cache = new Cache();
+
+        public Cache getCache() {
+            return cache;
+        }
+
+        public void setCache(Cache cache) {
+            this.cache = cache;
+        }
+
+        public static class Cache {
+            private  int timeToLiveInDays = 31;
+
+            public int getTimeToLiveInDays() {
+                return timeToLiveInDays;
+            }
+
+            public void setTimeToLiveInDays(int timeToLiveInDays) {
+                this.timeToLiveInDays = timeToLiveInDays;
+            }
+        }
+    }
 
     public static class Security {
 
