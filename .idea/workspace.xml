@@ -102,11 +102,9 @@
       <file leaf-file-name="LoggingAspectConfiguration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/LoggingAspectConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49208632">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.05467626">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1505,6 +1503,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b983e2bb-8d99-47a3-88f2-c0130e8dbd4b" name="Default" comment="" />
@@ -1513,12 +1514,12 @@
       <updated>1445389299678</updated>
       <workItem from="1445389302186" duration="13169000" />
       <workItem from="1445406658016" duration="4637000" />
-      <workItem from="1445411505208" duration="7434000" />
+      <workItem from="1445411505208" duration="8261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25240000" />
+    <option name="totallyTimeSpent" value="26067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2011,11 +2012,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/random-site/src/main/java/random/configs/LoggingAspectConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49208632">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.05467626">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
