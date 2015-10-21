@@ -1,6 +1,8 @@
 package random.filter;
 
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +16,7 @@ import java.io.IOException;
  */
 public class StaticResourcesProductionFilter implements Filter {
 
+    private final Logger log = LoggerFactory.getLogger(StaticResourcesProductionFilter.class);
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -31,6 +34,7 @@ public class StaticResourcesProductionFilter implements Filter {
             requestURI = "/indec.html";
         }
         String newURI = "/dist" + requestURI;
+        log.debug("-------------------------------------------------Static Resources Filter: request forward to >>> {} -------------------------------------------", newURI);
         request.getRequestDispatcher(newURI).forward(request, response);
     }
 

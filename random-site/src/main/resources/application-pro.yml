@@ -14,7 +14,8 @@ spring:
     profiles:
         active: dev
     datasource:
-        driver-class-name: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+#        type: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+        driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://localhost:3306/random?useUnicode=true&characterEncoding=utf8
         username: root
         password:
@@ -45,9 +46,21 @@ server:
 endpoints:
     shutdown:
         enabled: false
+logging:
+    level: INFO
+    path: I:/pc2
+    file: random.log
 
 #randomX config
 randonX:
     http:
         cache: # Used by the CachingHttpHeadersFilter
             timeToLiveInDays: 31
+    cache: #Hibernate 2nd level cache, used by CacheConfig
+        timeToLiveSeconds: 3600
+        ehcache:
+            maxBytesLocalHeap: 256M
+
+#logback
+logback:
+    level: WARN

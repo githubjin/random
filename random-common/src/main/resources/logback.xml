@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>utf-8</charset>
+            <Pattern>[%p] %c - %m%n</Pattern>
+        </encoder>
+    </appender>
+
+<!-- The FILE and ASYNC appenders are here as examples for a production configuration -->
+<!--
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>90</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>utf-8</charset>
+            <Pattern>%d %-5level [%thread] %logger{0}: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>512</queueSize>
+        <appender-ref ref="FILE"/>
+    </appender>
+-->
+
+    <logger name="random" level="${logback.loglevel}"/>
+
+    <logger name="javax.activation" level="${logback.loglevel}"/>
+    <logger name="javax.mail" level="${logback.loglevel}"/>
+    <logger name="javax.xml.bind" level="${logback.loglevel}"/>
+    <logger name="ch.qos.logback" level="${logback.loglevel}"/>
+    <logger name="com.codahale.metrics" level="${logback.loglevel}"/>
+    <logger name="com.ryantenney" level="${logback.loglevel}"/>
+    <logger name="com.sun.xml.internal.bind" level="${logback.loglevel}"/>
+    <logger name="com.zaxxer" level="${logback.loglevel}"/>
+    <logger name="io.undertow" level="${logback.loglevel}"/>
+    <logger name="net.sf.ehcache" level="${logback.loglevel}"/>
+    <logger name="org.apache" level="${logback.loglevel}"/>
+    <logger name="org.apache.catalina.startup.DigesterFactory" level="OFF"/>
+    <logger name="org.bson" level="${logback.loglevel}"/>
+    <logger name="org.elasticsearch" level="${logback.loglevel}"/>
+    <logger name="org.hibernate.validator" level="${logback.loglevel}"/>
+    <logger name="org.hibernate" level="${logback.loglevel}"/>
+    <logger name="org.hibernate.ejb.HibernatePersistence" level="OFF"/>
+    <logger name="org.springframework" level="${logback.loglevel}"/>
+    <logger name="org.springframework.web" level="${logback.loglevel}"/>
+    <logger name="org.springframework.security" level="${logback.loglevel}"/>
+    <logger name="org.springframework.cache" level="${logback.loglevel}"/>
+    <logger name="org.thymeleaf" level="${logback.loglevel}"/>
+    <logger name="org.xnio" level="${logback.loglevel}"/>
+    <logger name="springfox" level="${logback.loglevel}"/>
+    <logger name="liquibase" level="${logback.loglevel}"/>
+    <logger name="sun.rmi.transport" level="${logback.loglevel}"/>
+
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <root level="${logback.loglevel}">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>

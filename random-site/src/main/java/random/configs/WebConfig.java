@@ -15,20 +15,18 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import random.filter.CachingHttpHeadersFilter;
 import random.filter.StaticResourcesProductionFilter;
+import random.filter.gzip.GZipServletFilter;
 import random.support.ResourceNotFoundException;
 
 import javax.inject.Inject;
 import javax.servlet.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.EnumSet;
+import java.util.*;
 
 /**
  * Created by Yo on 2015/10/20.
  */
 @Configuration
 //@ControllerAdvice
-@AutoConfigureAfter(CacheConfig.class)
 public class WebConfig  implements ServletContextInitializer, EmbeddedServletContainerCustomizer{
 
     private final Logger logger = LoggerFactory.getLogger(WebConfig.class);
@@ -53,14 +51,34 @@ public class WebConfig  implements ServletContextInitializer, EmbeddedServletCon
     public void onStartup(ServletContext servletContext) throws ServletException {
         logger.info("Web application configuration, using profiles: {}", Arrays.toString(env.getActiveProfiles()));
         EnumSet<DispatcherType> disps = EnumSet.of(DispatcherType.REQUEST, DispatcherType.FORWARD, DispatcherType.ASYNC);
+        //  设置 cache headers
         this.initCacheingHttpHeaderFilter(servletContext, disps);
+        //  设置 静态资源访问
         this.initStaticResoucesProductionFilter(servletContext, disps);
+        //  对静态资源惊醒GZip压缩
+        this.initGzipFilter(servletContext, disps);
         logger.info("Web applcation fully configured ");
     }
 
+    /**
+     * Initializes the GZip filter
+     * @param servletContext
+     * @param disps
+     */
     private void initGzipFilter(ServletContext servletContext, EnumSet<DispatcherType> disps) {
         logger.debug("registering GZip filter");
-        servletContext.addFilter("gzipFilter", new Gzip)
+        FilterRegistration.Dynamic gzipFilter = servletContext.addFilter("gzipFilter", new GZipServletFilter());
+        Map<String, String> parameters = new HashMap<String, String>();
+        gzipFilter.setInitParameters(parameters);
+        gzipFilter.addMappingForUrlPatterns(disps, true, "*.css");
+        gzipFilter.addMappingForUrlPatterns(disps, true, "*.json");
+        gzipFilter.addMappingForUrlPatterns(disps, true, "*.html");
+        gzipFilter.addMappingForServletNames(disps, true, "*.js");
+        gzipFilter.addMappingForServletNames(disps, true, "*.svg");
+        gzipFilter.addMappingForServletNames(disps, true, "*.ttf");
+        gzipFilter.addMappingForUrlPatterns(disps, true, "/api/*");
+        gzipFilter.addMappingForUrlPatterns(disps, true, "/metrics/*");
+        gzipFilter.setAsyncSupported(true);
     }
 
     /**
@@ -103,18 +121,10 @@ public class WebConfig  implements ServletContextInitializer, EmbeddedServletCon
         }
     }
 
-    @Bean
-    public Filter characterEncodingFilter() {
-        CharacterEncodingFilter filter = new CharacterEncodingFilter();
-        filter.setEncoding("UTF-8");
-        filter.setForceEncoding(true);
-        return filter;
-    }
-
-    @ExceptionHandler
+/*    @ExceptionHandler
     @ResponseStatus(HttpStatus.NOT_FOUND)
     public void handlePageNotFound(ResourceNotFoundException ex) {
 
-    }
+    }*/
 
 }

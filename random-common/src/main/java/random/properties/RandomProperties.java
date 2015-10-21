@@ -17,6 +17,7 @@ public class RandomProperties {
 
     private Security security = new Security();
     private Http http = new Http();
+    private Cache cache = new Cache();
 
     public Http getHttp() {
         return http;
@@ -24,6 +25,14 @@ public class RandomProperties {
 
     public void setHttp(Http http) {
         this.http = http;
+    }
+
+    public Cache getCache() {
+        return cache;
+    }
+
+    public void setCache(Cache cache) {
+        this.cache = cache;
     }
 
     public static class Http {
@@ -187,5 +196,41 @@ public class RandomProperties {
 
     public void setSecurity(Security security) {
         this.security = security;
+    }
+
+    public static class Cache {
+
+        private int timeToLiveSeconds = 3600;
+
+        private Ehcache ehcache = new Ehcache();
+
+        public int getTimeToLiveSeconds() {
+            return timeToLiveSeconds;
+        }
+
+        public void setTimeToLiveSeconds(int timeToLiveSeconds) {
+            this.timeToLiveSeconds = timeToLiveSeconds;
+        }
+
+        public void setEhcache(Ehcache ehcache) {
+            this.ehcache = ehcache;
+        }
+
+        public Ehcache getEhcache() {
+            return ehcache;
+        }
+
+        public static class Ehcache {
+
+            private String maxBytesLocalHeap = "16M";
+
+            public String getMaxBytesLocalHeap() {
+                return maxBytesLocalHeap;
+            }
+
+            public void setMaxBytesLocalHeap(String maxBytesLocalHeap) {
+                this.maxBytesLocalHeap = maxBytesLocalHeap;
+            }
+        }
     }
 }
