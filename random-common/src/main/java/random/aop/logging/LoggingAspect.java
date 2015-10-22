@@ -25,9 +25,11 @@ public class LoggingAspect {
     @Inject
     private Environment env;
 
-//    @Pointcut("within(random.repository..*) || within(random.service..*) || within(random.web..*)")
-    @Pointcut("within(@annotation(org.springframework.stereotype.Controller) || @annotation(org.springframework.stereotype.Service) || @annotation(org.springframework.stereotype.Repository))")
+    @Pointcut("within(random..repository..*) || within(random..service..*) || within(random..web..*)")
     public void loggingPointcut() {}
+
+    @Pointcut("within(random.filter..*)")
+    public void loggingFilter() {}
 
     @AfterThrowing(pointcut = "loggingPointcut()", throwing = "e")
     public void logAfterThrowing(JoinPoint joinPoint, Throwable e) {
@@ -40,7 +42,7 @@ public class LoggingAspect {
         }
     }
 
-    @Around("loggingPointcut()")
+    @Around("loggingPointcut() && loggingFilter()")
     public Object logAround(ProceedingJoinPoint joinPoint) throws Throwable {
         if (log.isDebugEnabled()) {
             log.debug("Enter: {}.{}() with argument[s] = {}", joinPoint.getSignature().getDeclaringTypeName(),

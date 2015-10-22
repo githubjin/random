@@ -46,12 +46,14 @@ server:
 endpoints:
     shutdown:
         enabled: true
+#logging
 logging:
-    level: TRACE
-    path: I:/pc1
-    file: random.log
-
+    path: D:/pc2
+    file: trace.log
+    level: INFO
+#-----------------------------------------------------------------------------------------
 #randomX config
+#-----------------------------------------------------------------------------------------
 randonX:
     http:
         cache: # Used by the CachingHttpHeadersFilter
@@ -60,7 +62,3 @@ randonX:
         timeToLiveSeconds: 3600
         ehcache:
             maxBytesLocalHeap: 16M
-
-#logback
-logback:
-    level: INFO

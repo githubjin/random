@@ -33,7 +33,7 @@ public class StaticResourcesProductionFilter implements Filter {
         if(StringUtils.equals("/", requestURI)) {
             requestURI = "/indec.html";
         }
-        String newURI = "/dist" + requestURI;
+        String newURI = "/dist/1" + requestURI;
         log.debug("-------------------------------------------------Static Resources Filter: request forward to >>> {} -------------------------------------------", newURI);
         request.getRequestDispatcher(newURI).forward(request, response);
     }

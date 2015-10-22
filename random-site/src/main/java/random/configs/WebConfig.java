@@ -52,11 +52,11 @@ public class WebConfig  implements ServletContextInitializer, EmbeddedServletCon
         logger.info("Web application configuration, using profiles: {}", Arrays.toString(env.getActiveProfiles()));
         EnumSet<DispatcherType> disps = EnumSet.of(DispatcherType.REQUEST, DispatcherType.FORWARD, DispatcherType.ASYNC);
         //  设置 cache headers
-        this.initCacheingHttpHeaderFilter(servletContext, disps);
+//        this.initCacheingHttpHeaderFilter(servletContext, disps);
         //  设置 静态资源访问
-        this.initStaticResoucesProductionFilter(servletContext, disps);
+//        this.initStaticResoucesProductionFilter(servletContext, disps);
         //  对静态资源惊醒GZip压缩
-        this.initGzipFilter(servletContext, disps);
+//        this.initGzipFilter(servletContext, disps);
         logger.info("Web applcation fully configured ");
     }
 
