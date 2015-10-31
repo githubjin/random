@@ -3,6 +3,7 @@ package random.configs;
 import javax.inject.Inject;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.ObjectPostProcessor;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -16,10 +17,13 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.data.repository.query.SecurityEvaluationContextExtension;
+import org.springframework.security.web.access.intercept.FilterInvocationSecurityMetadataSource;
+import org.springframework.security.web.access.intercept.FilterSecurityInterceptor;
 import random.Constants;
 import random.rbac.Model.RolePermissionResources;
 import random.rbac.service.RbacService;
 import random.security.Http401UnauthorizedEntryPoint;
+import random.security.UrlFilterInvocationSecurityMetadataSource;
 import random.security.xauth.XAuthTokenConfigurer;
 import random.security.xauth.XauthTokenProvider;
 
@@ -40,6 +44,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
     private UserDetailsService userDetailsService;
     @Inject
     private XauthTokenProvider tokenProvider;
+    @Inject
+    private FilterInvocationSecurityMetadataSource urlFilterInvocationSecurityMetadataSource;
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -113,6 +119,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
             .antMatchers("/configuration/ui").permitAll()
             .antMatchers("/swagger-ui/index.html").hasAuthority(Constants.ROLE_ADMIN)
             .antMatchers("/protected/**").authenticated()
+                .withObjectPostProcessor(new ObjectPostProcessor<FilterSecurityInterceptor>() {
+                    @Override
+                    public <O extends FilterSecurityInterceptor> O postProcess(O fsi) {
+                        fsi.setSecurityMetadataSource(urlFilterInvocationSecurityMetadataSource);
+                        return fsi;
+                    }
+                })
         .and()
             .apply(securityConfigurerAdapter());
     }

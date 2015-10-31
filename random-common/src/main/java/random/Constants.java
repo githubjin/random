@@ -11,6 +11,7 @@ public class Constants {
     public static final String PERMISSION_TYPE_HASAUTHORITY = "3";
     //
     public static final String ROLE_ADMIN = "ROLE_ADMIN";
+    public static final String ROLE_USER = "ROLE_USER";
     public static final String ROLE_ANONYMOUS = "ROLE_ANONYMOUS";
 
     public static final String SYSTEM_ACCOUNT = "system";
