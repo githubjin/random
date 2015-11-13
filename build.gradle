@@ -3,7 +3,7 @@ def javaProjects = [project(':random-site'), project(':random-common')]
 def bootProjects = javaProjects - project(':random-common')
 def gradleDir = "${rootProject.rootDir}/gradle"
 //spring.profiles.active
-rootProject.ext.profilesctive = 'dev'
+//rootProject.ext.profilesctive = 'dev'
 
 wrapper.gradleVersion = '2.5'
 
@@ -20,6 +20,8 @@ buildscript {
     dependencies {
         classpath "io.spring.gradle:dependency-management-plugin:${dependency_management_plugin_version}"
         classpath "org.springframework.boot:spring-boot-gradle-plugin:${spring_boot_gradle_plugin_version}"
+        classpath "com.moowork.gradle:gradle-node-plugin:${moowork_gradle_version}"
+        classpath "com.moowork.gradle:gradle-gulp-plugin:${moowork_gradle_version}"
     }
 }
 
@@ -82,4 +84,10 @@ configure(bootProjects) {
             mavenBom "io.spring.platform:platform-bom:${platform_bom_snapshot_version}"
         }
     }
+}
+
+if (project.hasProperty('prod')) {
+    apply from: 'profile_prod.gradle'
+} else {
+    apply from: 'profile_dev.gradle'
 }

@@ -9,9 +9,9 @@ applicationDefaultJvmArgs = [
         "-DSAGAN_HOME=${rootProject.rootDir}"
     ]
 
-bootRun {
+/*bootRun {
     args = ["--spring.profiles.active=dev"]
-}
+}*/
 
 dependencies {
     compile project(':random-common')

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>utf-8</charset>
+            <Pattern>[%p] %c - %m%n</Pattern>
+        </encoder>
+    </appender>
+
+<!-- The FILE and ASYNC appenders are here as examples for a production configuration -->
+<!--
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>90</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>utf-8</charset>
+            <Pattern>%d %-5level [%thread] %logger{0}: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>512</queueSize>
+        <appender-ref ref="FILE"/>
+    </appender>
+-->
+
+    <logger name="random" level="INFO"/>
+
+    <logger name="javax.activation" level="INFO"/>
+    <logger name="javax.mail" level="INFO"/>
+    <logger name="javax.xml.bind" level="INFO"/>
+    <logger name="ch.qos.logback" level="INFO"/>
+    <logger name="com.codahale.metrics" level="INFO"/>
+    <logger name="com.ryantenney" level="INFO"/>
+    <logger name="com.sun.xml.internal.bind" level="INFO"/>
+    <logger name="com.zaxxer" level="INFO"/>
+    <logger name="io.undertow" level="INFO"/>
+    <logger name="net.sf.ehcache" level="INFO"/>
+    <logger name="org.apache" level="INFO"/>
+    <logger name="org.apache.catalina.startup.DigesterFactory" level="OFF"/>
+    <logger name="org.bson" level="INFO"/>
+    <logger name="org.elasticsearch" level="INFO"/>
+    <logger name="org.hibernate.validator" level="INFO"/>
+    <logger name="org.hibernate" level="INFO"/>
+    <logger name="org.hibernate.ejb.HibernatePersistence" level="OFF"/>
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="org.springframework.web" level="INFO"/>
+    <logger name="org.springframework.security" level="INFO"/>
+    <logger name="org.springframework.cache" level="INFO"/>
+    <logger name="org.thymeleaf" level="INFO"/>
+    <logger name="org.xnio" level="INFO"/>
+    <logger name="springfox" level="INFO"/>
+    <logger name="liquibase" level="INFO"/>
+    <logger name="sun.rmi.transport" level="INFO"/>
+
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>

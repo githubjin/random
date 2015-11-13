@@ -1,0 +1,27 @@
+//apply plugin: 'spring-boot'
+project(':random-common'){
+    ext {
+        logbackLoglevel = "INFO"
+        fkLogbackLoglevel = "WARN"
+    }
+    processResources {
+        filesMatching('**/logback.xml') {
+            filter {
+                it.replace('${fk.logback.loglevel}', fkLogbackLoglevel).replace('${logback.loglevel}', logbackLoglevel)
+            }
+        }
+    }
+    compileJava.dependsOn(processResources)
+}
+
+project(':random-site'){
+    bootRun {
+        args = ["--spring.profiles.active=prod"]
+    }
+
+    task setProdProperties(dependsOn: bootRun) << {
+        doFirst {
+            System.setProperty('spring.profiles.active', 'prod')
+        }
+    }
+}

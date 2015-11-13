@@ -47,10 +47,10 @@ endpoints:
     shutdown:
         enabled: false
 #logging
-logging:
-    path: D:/pc1
-    file: info.log
-    level: ERROR
+#logging:
+#    path: D:/pc1
+#    file: info.log
+#    level: ERROR
 #--------------------------------------------------------
 #randomX config
 #--------------------------------------------------------

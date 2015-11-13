@@ -47,10 +47,10 @@ endpoints:
     shutdown:
         enabled: true
 #logging
-logging:
-    path: D:/pc2
-    file: trace.log
-    level: INFO
+#logging:
+#    path: D:/pc2
+#    file: trace.log
+#    level: INFO
 #-----------------------------------------------------------------------------------------
 #randomX config
 #-----------------------------------------------------------------------------------------

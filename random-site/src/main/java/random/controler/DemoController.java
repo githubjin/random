@@ -7,6 +7,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -85,5 +88,12 @@ public class DemoController {
     public ResponseEntity<String> handleIoException(IOException ex){
         ResponseEntity<String> responseEntity = new ResponseEntity<String>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         return responseEntity;
+    }
+
+    @RequestMapping(value = "authendemo", method = RequestMethod.GET)
+    public ResponseEntity<SecurityContext> getSecurityInfo(){
+        SecurityContext context = SecurityContextHolder.getContext();
+//        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        return new ResponseEntity<SecurityContext>(context, HttpStatus.OK);
     }
 }
