@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.springframework.data:spring-data-redis:1.6.0.RELEASE">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.6.0.RELEASE/spring-data-redis-1.6.0.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

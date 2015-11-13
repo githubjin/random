@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.thymeleaf:thymeleaf-spring4:2.1.4.RELEASE">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf-spring4/2.1.4.RELEASE/thymeleaf-spring4-2.1.4.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
